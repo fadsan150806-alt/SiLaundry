@@ -1,0 +1,61 @@
+import Alpine from 'alpinejs';
+import {
+    createIcons,
+    ChevronDown,
+    ChevronUp,
+    House,
+    LayoutDashboard,
+    LogOut,
+    Menu,
+    Package,
+    Pencil,
+    Plus,
+    ReceiptText,
+    Search,
+    Settings,
+    ShieldAlert,
+    ShieldCheck,
+    Shirt,
+    Trash2,
+    TriangleAlert,
+    UserCheck,
+    UserRound,
+    Users,
+    UsersRound,
+    Bell,
+    WashingMachine,
+    X,
+} from 'lucide';
+
+window.Alpine = Alpine;
+Alpine.start();
+
+// Ikon di-bundle (bukan CDN) agar tetap tampil tanpa koneksi internet.
+createIcons({
+    icons: {
+        ChevronDown,
+        ChevronUp,
+        House,
+        LayoutDashboard,
+        LogOut,
+        Menu,
+        Package,
+        Pencil,
+        Plus,
+        ReceiptText,
+        Search,
+        Settings,
+        ShieldAlert,
+        ShieldCheck,
+        Shirt,
+        Trash2,
+        TriangleAlert,
+        UserCheck,
+        UserRound,
+        Users,
+        UsersRound,
+        Bell,
+        WashingMachine,
+        X,
+    },
+});
